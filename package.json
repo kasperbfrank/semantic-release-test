@@ -1,0 +1,28 @@
+{
+  "name": "semantic-release-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kasperbfrank/semantic-release-test.git"
+  },
+  "keywords": [
+    "semantic-release"
+  ],
+  "author": "Kasper Bruus Frank <kbf@scadaminds.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kasperbfrank/semantic-release-test/issues"
+  },
+  "homepage": "https://github.com/kasperbfrank/semantic-release-test#readme",
+  "devDependencies": {
+    "last-release-git": "0.0.3"
+  },
+  "release": {
+    "getLastRelease": "last-release-git"
+  }
+}
